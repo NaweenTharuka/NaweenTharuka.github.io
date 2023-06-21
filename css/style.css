@@ -1871,6 +1871,8 @@ section#blog figure a {
 
 section#blog figure a img {
   width: 100%;
+  object-fit: cover;
+    max-height: 168px;
   border-radius: 4px;
   webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
