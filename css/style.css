@@ -1989,7 +1989,7 @@ body.blog .container-fluid.page-title {
 
 body.blog .container-fluid.page-title .content-banner {
   background-color: rgba(0, 0, 0, .8);
-  padding: 200px 30px;
+  padding: 20px 30px 70px;
   width: 100%;
   text-align: center;
 }
@@ -3001,4 +3001,12 @@ ul.social-intro li a:hover i {
   -moz-transform: scale(1.5);
   transition: all 200ms ease-in;
   transform: scale(1.5);
+}
+
+.breadcrumb{
+  background-color: #00000038 !important;
+}
+
+.breadcrumb a{
+  color: #ffb400 !important;
 }
