@@ -1,45 +1,4 @@
-﻿/*
-Template Name: Istanbul - Personal Portfolio
-Author: Celtano
-Author URI: http://themeforest.net/user/celtano
-Description: Istanbul - Personal Portfolio
-Version: 1.0
-*/
-
-
-/*------------------------------------------------------------------
-[Table of contents]
-	+ General
-		- Dark Body
-		- Preloader
-	+ Header
-		- Navigation
-	+ Main Section
-		+ miscellaneous
-			- Text Rotator
-		+ About
-			- Personal Informations
-			- Resume Panels
-			- Skills
-		- Portfolio
-		+ Blog
-			- Latest Posts
-			+ Blog Page 
-				- Posts
-				- Comments
-				- Comments Form
-		+ Contact
-			- Left Side
-			- Social Media Icons
-			- Right Side
-	- Responsive Design Styles
--------------------------------------------------------------------*/
-
-/* [ GENERAL ] */
-/*================================================== */
-
-
-body,
+﻿body,
 html {
   font-size: 100%;
   padding: 0;
@@ -3005,4 +2964,41 @@ ul.social-intro li a:hover i {
   .page-title .title-head-subtitle {
     font-size: 14px;
   }
+}
+
+.social-icons{
+	padding:30px;
+  text-align: center;
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
 }
