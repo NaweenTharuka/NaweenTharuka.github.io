@@ -1106,7 +1106,7 @@ div.container.page-title {
   font-size: 55px;
   position: relative;
   z-index: 0;
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
   color: #555;
@@ -3015,4 +3015,8 @@ ul.social-intro li a:hover i {
 
 .text-gray{
   color: #adadad !important;
+}
+
+.skills-slider img{
+  height: 80px;
 }
